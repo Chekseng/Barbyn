@@ -1,0 +1,39 @@
+.active.navbar {
+  background-color: var(--secondary-text-color);
+  position: fixed;
+  width: 100%;
+  transition: all ease 0.9s;
+  padding-top: 15px;
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 35px 170px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all ease 0.9s;
+}
+
+.btn-link {
+  color: var(--quatenary-text-color);
+  font-size: 16px;
+}
+
+.btn-link-reverse {
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
+
+.btn-link:hover {
+  color: var(--primary-text-color);
+}
+
+.btn-link-reverse:hover {
+  color: var(--quatenary-text-color);
+}

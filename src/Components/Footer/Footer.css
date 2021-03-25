@@ -1,0 +1,84 @@
+.footer-h2 {
+  font-size: 23px;
+  color: var(--primary-text-color);
+}
+
+.icon-box {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 10px 0;
+}
+
+.icon-box span {
+  font-size: 25px;
+}
+
+.icon-box p {
+  color: var(--quatenary-text-color);
+}
+
+.footer-about-us h2 + p {
+  color: var(--quatenary-text-color);
+  padding: 10px 20px 10px 0;
+}
+
+.footer-about-us span {
+  color: var(--primary-text-color);
+}
+
+/* Quick Menu */
+.footer-quick-links {
+  padding-left: 30px;
+}
+.footer-quick-links p {
+  color: var(--quatenary-text-color);
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* Services */
+.footer-service-links p {
+  color: var(--quatenary-text-color);
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* NewsLetter */
+.footer-newsletter p {
+  color: var(--quatenary-text-color);
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.footer-newsletter input {
+  padding: 11px 0;
+  border: none;
+  border-bottom: 2px solid var(--primary-text-color);
+  background-color: transparent;
+  margin-right: 10px;
+  color: var(--quatenary-text-color);
+}
+
+.footer-newsletter input::placeholder {
+  color: var(--primary-text-color);
+  font-style: italic;
+}
+
+.footer-newsletter input:focus {
+  font-style: normal;
+}
+
+.footer-newsletter .footer-icons {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.footer-newsletter .footer-icons span {
+  margin-right: 16px;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.footer-newsletter .footer-icons span:hover {
+  color: var(--quatenary-text-color);
+}

@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Ceviche+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap");
+
+/* Global css variable */
+:root {
+  --primary-text-color: #c82333;
+  --secondary-text-color: #06221c;
+  --tetiary-text-color: #7f8c8d;
+  --quatenary-text-color: #f5f0f0;
+  --primary-gradient: linear-gradient(to right, #000000a6, #000000a6);
+  --secondary-gradient: linear-gradient(to right, #00000088, #00000088);
+  --primary-bg: #ffecee;
+  --secondary-bg: #fff6f7;
+  --tetiary-bg: #ffe0e3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul,
+li {
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary-text-color);
 }
 
-.App-link {
-  color: #61dafb;
+h3,
+h4 {
+  font-family: "Aguafina Script", sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p,
+span,
+i,
+button,
+input::placeholder,
+option,
+input,
+li,
+ul {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.divider {
+  height: 4px;
+  background-color: var(--primary-text-color);
+}
+
+.divider-small {
+  width: 50px;
+}
+
+.divider-medium {
+  width: 90px;
+}
+
+.divider-large {
+  width: 120px;
+}
+
+.divider-margin {
+  margin-bottom: 20px;
 }

@@ -1,0 +1,15 @@
+.banner-about {
+  background-image: var(--primary-gradient),
+    url("https://images.unsplash.com/photo-1598887142728-f80b6e64821b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+.banner-services {
+  background-image: var(--primary-gradient),
+    url("https://images.unsplash.com/photo-1602994482256-283c20514378?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80");
+  background-position: center;
+}
+
+.banner-contact {
+  background-image: var(--primary-gradient),
+    url("https://images.unsplash.com/photo-1596362601603-b74f6ef166e4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMGNsaXBwZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+}

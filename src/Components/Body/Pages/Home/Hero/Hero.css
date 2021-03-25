@@ -1,0 +1,30 @@
+.hero-slider {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 265px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #00000060, #00000060);
+}
+
+.hero-first {
+  background-image: var(--primary-gradient),
+    url("https://images.unsplash.com/photo-1598887142728-f80b6e64821b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+}
+
+.hero-second {
+  background-image: var(--primary-gradient),
+    url("https://images.pexels.com/photos/668196/pexels-photo-668196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.hero-third {
+  background-image: var(--primary-gradient),
+    url("https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.hero-fourth {
+  background-image: var(--primary-gradient),
+    url("https://images.pexels.com/photos/3998421/pexels-photo-3998421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}

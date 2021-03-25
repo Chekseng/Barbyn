@@ -1,0 +1,120 @@
+.btn-fill {
+  background-color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+  color: var(--quatenary-text-color);
+  transition: all ease 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-fill:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+  transition: all ease 0.5s;
+}
+
+.btn-outline {
+  color: red;
+  background-color: transparent;
+  border: 1px solid var(--primary-text-color);
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-text-color);
+  color: var(--quatenary-text-color);
+  transition: all ease-in-out 0.5s;
+}
+
+.btn-small {
+  padding: 6px 10px;
+}
+
+.btn-medium {
+  padding: 12px 24px;
+}
+
+.btn-large {
+  padding: 16px 30px;
+}
+
+.btn-fill-hero-large {
+  width: 220px;
+  margin: 0 5px;
+  background-color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+  color: var(--quatenary-text-color);
+  transition: all ease 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-fill-hero-large:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+  transition: all ease 0.5s;
+}
+
+.btn-outline-hero-large {
+  width: 220px;
+  margin: 0 5px;
+  color: red;
+  background-color: transparent;
+  border: 1px solid var(--primary-text-color);
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-outline-hero-large:hover {
+  background-color: var(--primary-text-color);
+  color: var(--quatenary-text-color);
+  transition: all ease-in-out 0.5s;
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-fill-hero-large {
+    width: 160px;
+  }
+
+  .btn-outline-hero-large {
+    width: 160px;
+    padding: 16px 0 31px;
+  }
+}
+
+.btn-basic {
+  background-color: rgb(102, 196, 228);
+  border: 1px solid rgb(102, 196, 228);
+  color: var(--quatenary-text-color);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.btn-basic:hover {
+  color: rgb(102, 196, 228);
+  background-color: transparent;
+  transition: all ease 0.5s;
+  font-weight: bold;
+}
+
+.btn-premium {
+  background-color: rgb(88, 238, 150);
+  border: 1px solid rgb(88, 238, 150);
+  color: var(--quatenary-text-color);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.btn-premium:hover {
+  color: rgb(88, 238, 150);
+  background-color: transparent;
+  transition: all ease 0.5s;
+  font-weight: bold;
+}

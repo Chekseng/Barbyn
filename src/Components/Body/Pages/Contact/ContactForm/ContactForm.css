@@ -1,0 +1,31 @@
+.form-input {
+  border: none;
+  border-bottom: 2px solid var(--primary-text-color);
+  background-color: transparent;
+  padding: 20px 10px;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.info-section {
+  padding: 70px 30px 30px;
+}
+
+.info-section h2 {
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--secondary-text-color);
+}
+
+.info-section p {
+  font-size: 17px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  color: var(--tetiary-text-color);
+}
+
+.info-section span {
+  font-size: 16px;
+  font-weight: 300;
+}
