@@ -1,10 +1,28 @@
-# Getting Started with Create React App
+#BARBYN
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### OVERVIEW
+Barbyn is a simple react-application that provides a graphic interface that enables users to book appointment for a hair styling session.
+Designed to display the various services provided by the grooming shop.
 
-In the project directory, you can run:
+### FEATURES
+- react.js
+- react-router-dom
+- styled-components
+- react-infinite-carousel
+
+### HOW TO USE
+
+- download or clone source code from github repository
+- in your terminal
+
+```
+run npm install or yarn install
+```
+
+- head over to you browser and open localhost:3000
+- viola! enjoy the app.
 
 ### `yarn start`
 
